@@ -1,0 +1,36 @@
+.title {
+    color: black;
+    display: block;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+
+    border: white dashed 2px;
+}
+
+.status {
+    color: black;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+
+    border: white dashed 2px;
+}
+
+
+@media (max-width: 900px) {
+    .title{
+        font-size: 45px;
+    }
+    .status{
+        font-size: 25px;
+    }
+}
+@media (max-width: 300px) {
+    .title{
+        font-size: 25px;
+    }
+    .status{
+        font-size: 15px;
+    }
+}

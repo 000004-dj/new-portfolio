@@ -1,0 +1,12 @@
+.aboutMyContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+    color: #7d7789;
+
+    border: white solid 1px;
+}
+
+

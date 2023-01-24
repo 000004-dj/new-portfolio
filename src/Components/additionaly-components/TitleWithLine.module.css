@@ -1,0 +1,37 @@
+.lineDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeTitle {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    flex: 0 1 auto;
+}
+
+.line{
+    height: 2px;
+    background: #7d7789;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 1;
+    flex: 5 1 auto;
+}
+
+
+@media (max-width: 760px) {
+    .aboutMeTitle{
+        font-size: 25px;
+    }
+}
+@media (max-width: 300px) {
+    .aboutMeTitle{
+        font-size: 18px;
+    }
+}
+
+

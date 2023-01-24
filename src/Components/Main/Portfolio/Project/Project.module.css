@@ -1,0 +1,58 @@
+.AlbumParent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ImageBlockContainer{
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    max-width: 50%;
+    min-width: 45%;
+
+    margin: 10px;
+
+
+    border: white dashed 2px;
+}
+.itemImageBlock{
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+.ImageBlockContainer p{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+
+    border: white dashed 1px;
+}
+
+.followButton{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0;
+}
+.followButton:hover{
+    color: black;
+    font-size: 30px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 30px;
+    opacity: 1;
+    background: rgba(255, 215, 0, 0.6);
+}

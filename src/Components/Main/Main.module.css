@@ -1,0 +1,53 @@
+.Main {
+    height: 93vh;
+    /*background: #f6fbff;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #707373;
+
+}
+
+.imageParent{
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border: yellow solid 2px;
+}
+
+.infoBlock {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    height: 100%;
+    top: 60px;
+
+
+    border: solid #800303 2px;
+}
+
+
+
+@media (max-width: 750px){
+    .imageParent{
+        display: none;
+    }
+    .infoBlock{
+        width: 100%
+    }
+}
+
+
+
+
+
+

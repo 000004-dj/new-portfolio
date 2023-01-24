@@ -1,0 +1,18 @@
+.ProgrammingAndLanguages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    text-align: left;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+
+    border: white solid 1px;
+
+}
+
+.ProgrammingAndLanguages li{
+    color: #7d7789;
+}
+
+
