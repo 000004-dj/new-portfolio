@@ -4,7 +4,7 @@
     min-height: 100vh;
     text-align: center;
     background: #8f8f8f;
-
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

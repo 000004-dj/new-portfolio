@@ -14,11 +14,6 @@ export const HomePage = () => {
                 <p>Lorem ipsum dolor sit amet</p>
                 <p>
                     Lorem ipsum dolor sit Corporis culpa
-                    cupiditate dolore, eaque error ipsum
-                    libero maxime molestiae odio placeat
-                    possimus repudiandae sint suscipit u
-                    t vel veniam voluptatibus. Eaque, su
-                    scipit?
                 </p>
 
             </div>

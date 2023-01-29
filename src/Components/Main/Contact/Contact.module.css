@@ -45,12 +45,14 @@
 }
 @media (max-width: 350px) {
     .Contact input{
-        height: 20px;
+        height: 30px;
         font-size: 10px;
+        width: 100%;
     }
     .Contact textarea{
-        height: 20px;
+        height: 60px;
         font-size: 10px;
+        width: 100%;
     }
     .contactButton{
         width: 100px;
