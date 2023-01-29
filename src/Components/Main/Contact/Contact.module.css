@@ -1,8 +1,10 @@
 .Contact{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 100%;
+
+    border: white solid 1px;
 }
 
 .container{
@@ -25,4 +27,33 @@
     width: 60%;
     height: 100px;
     font-size: 20px;
+}
+
+@media (max-width: 550px) {
+    .Contact input{
+        height: 30px;
+        font-size: 10px;
+    }
+    .Contact textarea{
+        height: 30px;
+        font-size: 10px;
+    }
+    .contactButton{
+        width: 100px;
+        height: 30px;
+    }
+}
+@media (max-width: 350px) {
+    .Contact input{
+        height: 20px;
+        font-size: 10px;
+    }
+    .Contact textarea{
+        height: 20px;
+        font-size: 10px;
+    }
+    .contactButton{
+        width: 100px;
+        height: 20px;
+    }
 }

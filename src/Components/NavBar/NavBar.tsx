@@ -1,7 +1,6 @@
 import React from "react";
 import s from "./NavBar.module.css"
 import {NavLink} from "react-router-dom";
-import {Contact} from "../Main/Contact/Contact";
 
 export const NavBar = () => {
     return (

@@ -1,14 +1,14 @@
 import React from "react";
-import {TitleWithLine} from "../../additionaly-components/TitleWithLine";
+import {TitleText} from "../../additionaly-components/TitleText";
 import {Project} from "./Project/Project";
 import s from "./Portfolio.module.css"
 
 export const Portfolio = () => {
     return (
         <div className={s.Portfolio}>
-            <br/>
-            <TitleWithLine title={"CREATIVE PORTFOLIO"}/>
-            <br/>
+
+            <TitleText title={"CREATIVE PORTFOLIO"}/>
+
                 <Project/>
         </div>
     )

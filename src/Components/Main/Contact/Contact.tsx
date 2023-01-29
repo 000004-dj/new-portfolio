@@ -1,13 +1,13 @@
 import React from "react";
 import s from "./Contact.module.css"
-import {TitleWithLine} from "../../additionaly-components/TitleWithLine";
+import {TitleText} from "../../additionaly-components/TitleText";
 import {Button} from "@mui/material";
 
 export const Contact = () => {
     return (
         <>
             <br/>
-            <TitleWithLine title={"CONTACT ME"}/>
+            <TitleText title={"CONTACT ME"}/>
             <br/>
             <div className={s.Contact}>
                 <div className={s.container}>
@@ -16,6 +16,7 @@ export const Contact = () => {
                     <textarea placeholder={"Your massage"}></textarea>
                     <br/>
                     <Button
+                        className={s.contactButton}
                         sx={{backgroundColor: "white", color: "black"}}
                         size={"large"}
                         variant="contained"

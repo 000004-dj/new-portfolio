@@ -1,0 +1,43 @@
+.Job{
+    min-height: 50vh;
+    width: 100%;
+    border: white solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background: #7d7789;
+}
+
+.jobContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+
+    border: white dashed 2px;
+}
+
+.title{
+    font-size: 40px;
+
+    border: white solid 1px;
+}
+
+.button{
+    display: block;
+    width: 180px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: red;
+}

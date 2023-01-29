@@ -1,5 +1,7 @@
 import React from "react";
 import s from "./Project.module.css";
+import containerStyle from "../../../../containerStyle.module.css"
+import {TitleText} from "../../../additionaly-components/TitleText";
 
 const state = [
     {
@@ -17,26 +19,20 @@ const state = [
         title: "To-Do List",
         description: "Project from mega-cool developer"
     },
-    {
-        image: "https://psmm.pl/wp-content/uploads/2021/07/3-zasieg-social-media-jak-go-zmierzyc-scaled.jpeg",
-        title: "Social Media",
-        description: "Best Social media ever"
-    },
 
 ]
 
 export const Project = () => {
     return (
         <>
-            <div className={s.AlbumParent}>
+            <div className={containerStyle.flexContainer}>
                 {state.map(i => {
-                    return <div className={s.ImageBlockContainer}>
-
-                        <div className={s.itemImageBlock} style={{backgroundImage: `url(${i.image})`}}>
-                            <a href="#" className={s.followButton}>Follow</a>
+                    return <div className={s.cardContainer}>
+                        <div className={s.image} >
+                            <img src={i.image} alt=""/>
                         </div>
                         <p>{i.title}</p>
-                        <p>{i.description}</p>
+                        <p className={s.description}>{i.description}</p>
 
                     </div>
                 })}

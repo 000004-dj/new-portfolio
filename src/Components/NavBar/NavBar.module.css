@@ -41,5 +41,9 @@
 @media (max-width: 500px) {
    .NavBar a{
       font-size: 8px;
+      padding: 0 5px;
+   }
+   .NavBar{
+      max-width: 20px;
    }
 }
