@@ -23,6 +23,7 @@ const state = [
             "olestiae odio placeat possimus repudiandae sint suscipit",
     },
 
+
 ]
 
 export const SkillPage = () => {

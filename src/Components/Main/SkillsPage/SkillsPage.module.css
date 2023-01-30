@@ -30,6 +30,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    margin: 10px;
 
     background: #7d7789;
 }
@@ -69,6 +70,7 @@
         width: 200px;
         min-width: 240px;
         min-height: 100%;
+        margin: 0;
     }
 }
 
