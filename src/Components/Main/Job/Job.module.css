@@ -1,13 +1,12 @@
 .Job{
     min-height: 50vh;
     width: 100%;
-    border: white solid 2px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     text-align: center;
-    background: #7d7789;
+    border-bottom: black solid 1px;
 }
 
 .jobContainer{
@@ -18,13 +17,11 @@
     height: 40%;
     width: 100%;
 
-    border: white dashed 2px;
 }
 
 .title{
     font-size: 40px;
 
-    border: white solid 1px;
 }
 
 .button{

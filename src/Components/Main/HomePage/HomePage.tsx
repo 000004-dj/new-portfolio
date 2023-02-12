@@ -1,7 +1,7 @@
 import s from "./HomePage.module.css";
 import containerStyle from "../../../containerStyle.module.css"
 import React from "react";
-import photo from "../../../assets/images/Photo.jpg"
+import photo from "../../../assets/images/photo.png"
 import {TitleText} from "../../additionaly-components/TitleText";
 
 export const HomePage = () => {

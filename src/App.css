@@ -3,5 +3,17 @@
     /*flex-direction: column;*/
     /*justify-content: center;*/
 }
+body{
+    background: #d9d3c8;
 
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    font-style: normal;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+
+}
 

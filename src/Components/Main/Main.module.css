@@ -2,7 +2,6 @@
     width: 90%;
     margin: 0 auto;
     min-height: 100vh;
-    background: #a8d5d5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +10,6 @@
 .blockContainer {
     width: 100%;
     top: 60px;
-
-    border: solid #83e30d 2px;
 }
 
 @media (max-width: 900px) {
