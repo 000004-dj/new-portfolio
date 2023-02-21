@@ -18,7 +18,9 @@
 
     background-position: top;
     background-size: cover;
+    z-index: 2;
 }
+
 
 .textBlock{
     min-width: 240px;
@@ -31,6 +33,7 @@
     line-height: 26px;
     font-family: 'Roboto', sans-serif;
 
+    max-height: 100%;
 
 }
 

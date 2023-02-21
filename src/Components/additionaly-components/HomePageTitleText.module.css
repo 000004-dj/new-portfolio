@@ -17,15 +17,23 @@
     letter-spacing: -0.6px;
     line-height: 1.2;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 100px;
 
 }
 
-
-
+@media (max-width: 1300px) {
+    .aboutMeTitle{
+        margin-top: 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .lineDiv{
+        height: 100px;
+    }
+}
 @media (max-width: 760px) {
     .aboutMeTitle{
-        font-size: 25px;
+        font-size: 30px;
 
     }
     .lineDiv{

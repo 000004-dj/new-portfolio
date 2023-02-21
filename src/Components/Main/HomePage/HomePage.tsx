@@ -2,7 +2,7 @@ import s from "./HomePage.module.css";
 import containerStyle from "../../../containerStyle.module.css"
 import React from "react";
 import photo from "../../../assets/images/photo.png"
-import {TitleText} from "../../additionaly-components/TitleText";
+import {HomePageTitleText} from "../../additionaly-components/HomePageTitleText";
 
 export const HomePage = () => {
     return <div className={s.HomePage}>
@@ -10,11 +10,7 @@ export const HomePage = () => {
         <div className={containerStyle.flexContainer}>
 
             <div className={s.textBlock}>
-                <TitleText title={"Samuil Prytchyn"}/>
-                <p>Lorem ipsum dolor sit amet</p>
-                <p>
-                    Lorem ipsum dolor sit Corporis culpa
-                </p>
+                <HomePageTitleText title={"Hi, i am Samuil and i Frontend Developer"}/>
 
             </div>
 

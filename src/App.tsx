@@ -9,6 +9,7 @@ function App() {
     return (
         <div className={s.App}>
             <Header/>
+            <hr/>
                 <Main/>
             <Footer/>
         </div>

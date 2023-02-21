@@ -26,11 +26,10 @@ export const Project = () => {
             <div className={containerStyle.flexContainer}>
                 {state.map(i => {
                     return <div className={s.cardContainer}>
+                        <p className={s.title}>{i.title}</p>
+                        <p className={s.description}>{i.description}</p>
                         <div className={s.image} style={{backgroundImage: `url(${i.image})`}} >
                         </div>
-                        <p>{i.title}</p>
-                        <p className={s.description}>{i.description}</p>
-
                     </div>
                 })}
             </div>
