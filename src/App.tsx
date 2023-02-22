@@ -10,7 +10,7 @@ function App() {
         <div className={s.App}>
             <Header/>
             <hr/>
-                <Main/>
+            <Main/>
             <Footer/>
         </div>
     );

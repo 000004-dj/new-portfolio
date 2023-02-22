@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Contact.module.css"
-import {TitleText} from "../../additionaly-components/TitleText";
-import {Button} from "@mui/material";
+import {TitleText} from "../../additionaly-components/TitleText/TitleText";
+import {CustomButton} from "../../additionaly-components/button/CustomButtom";
 
 export const Contact = () => {
     return (
@@ -15,12 +15,10 @@ export const Contact = () => {
                     <input type="text" placeholder={"Your telephone number"}/>
                     <textarea placeholder={"Your massage"}></textarea>
                     <br/>
-                    <Button
-                        className={s.contactButton}
-                        sx={{backgroundColor: "white", color: "black"}}
-                        size={"large"}
-                        variant="contained"
-                    >CONTACT</Button>
+                    <CustomButton
+                        buttonTitle={"CONTACT"}
+                        design={"light"}
+                    />
                 </div>
             </div>
         </>

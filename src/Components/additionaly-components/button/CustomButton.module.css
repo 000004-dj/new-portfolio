@@ -1,0 +1,26 @@
+.button{
+    border: none;
+    border-radius: 30px;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 18px 45px;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button:hover{
+    box-shadow: black 1px 1px 5px;
+
+}
+
+.buttonIcon{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+}

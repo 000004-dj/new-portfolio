@@ -1,5 +1,5 @@
 import React from "react";
-import {TitleText} from "../../additionaly-components/TitleText";
+import {TitleText} from "../../additionaly-components/TitleText/TitleText";
 import {Project} from "./Project/Project";
 import s from "./Portfolio.module.css"
 

@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./SkillsPage.module.css"
 import containerStyle from "../../../containerStyle.module.css"
-import {TitleText} from "../../additionaly-components/TitleText";
+import {TitleText} from "../../additionaly-components/TitleText/TitleText";
 import {v1} from "uuid";
 import { AiFillHtml5, AiOutlineRight } from "react-icons/ai";
 
