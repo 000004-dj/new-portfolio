@@ -3,7 +3,7 @@ import containerStyle from "../../../containerStyle.module.css"
 import React from "react";
 import photo from "../../../assets/images/photo.png"
 import {HomePageTitleText} from "../../additionaly-components/TitleText/HomePageTitle/HomePageTitleText";
-import {CustomButton} from "../../additionaly-components/button/CustomButtom";
+import {CustomButton} from "../../additionaly-components/CustomButton/CustomButtom";
 import { AiOutlineCloud } from "react-icons/ai";
 
 

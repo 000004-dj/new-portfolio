@@ -9,9 +9,11 @@
     position: relative;
     top: 0;
     border-bottom: black solid 1px;
+}
 
 
-
+.burgerIcon{
+display: none;
 }
 
 
@@ -19,5 +21,10 @@
     .Header{
         height: 40px;
         position: relative;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .burgerIcon{
+        display: block;
     }
 }

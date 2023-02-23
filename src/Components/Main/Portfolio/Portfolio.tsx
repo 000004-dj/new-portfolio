@@ -6,7 +6,10 @@ import s from "./Portfolio.module.css"
 export const Portfolio = () => {
     return (
         <div className={s.Portfolio}>
-            <TitleText title={"CREATIVE PORTFOLIO"}/>
+            <TitleText
+                title={"my projects"}
+                smallTitle={"portfolio"}
+            />
 
                 <Project/>
         </div>

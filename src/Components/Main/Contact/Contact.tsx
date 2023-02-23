@@ -1,13 +1,16 @@
 import React from "react";
 import s from "./Contact.module.css"
 import {TitleText} from "../../additionaly-components/TitleText/TitleText";
-import {CustomButton} from "../../additionaly-components/button/CustomButtom";
+import {CustomButton} from "../../additionaly-components/CustomButton/CustomButtom";
 
 export const Contact = () => {
     return (
         <>
             <br/>
-            <TitleText title={"CONTACT ME"}/>
+            <TitleText
+                title={"get in touch"}
+            smallTitle={"CONTACT ME"}
+            />
             <br/>
             <div className={s.Contact}>
                 <div className={s.container}>

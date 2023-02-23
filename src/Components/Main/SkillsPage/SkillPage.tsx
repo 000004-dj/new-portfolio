@@ -34,7 +34,10 @@ const state = [
 export const SkillPage = () => {
     return (
         <div className={s.SkillPage}>
-            <TitleText title={"MY SKILLS"}/>
+            <TitleText
+                title={"What i can"}
+                smallTitle={"SKILLS"}
+            />
             <div className={containerStyle.flexContainer}>
 
                 {state.map(i => {
