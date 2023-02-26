@@ -19,6 +19,7 @@ export const HomePage = () => {
                     buttonIcon={<AiOutlineCloud/>}
                 />
             </div>
+
             <div className={s.image} style={{backgroundImage: `url(${photo})`}} ></div>
 
         </div>

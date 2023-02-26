@@ -9,20 +9,20 @@ export const Contact = () => {
             <br/>
             <TitleText
                 title={"get in touch"}
-            smallTitle={"CONTACT ME"}
+                smallTitle={"CONTACT ME"}
             />
             <br/>
             <div className={s.Contact}>
-                <div className={s.container}>
-                    <input type="text" placeholder={"Your Email"}/>
-                    <input type="text" placeholder={"Your telephone number"}/>
-                    <textarea placeholder={"Your massage"}></textarea>
-                    <br/>
-                    <CustomButton
-                        buttonTitle={"CONTACT"}
-                        design={"light"}
-                    />
-                </div>
+                <form className={s.container}>
+                        <input type="text" placeholder={"Your Email"}/>
+                        <input type="text" placeholder={"Your telephone number"}/>
+                        <textarea placeholder={"Your massage"}></textarea>
+                        <br/>
+                        <CustomButton
+                            buttonTitle={"CONTACT"}
+                            design={"light"}
+                        />
+                </form>
             </div>
         </>
     )

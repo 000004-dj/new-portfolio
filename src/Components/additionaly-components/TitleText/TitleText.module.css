@@ -22,7 +22,6 @@
 .smallTitle{
     display: block;
     text-align: left;
-    flex: 0 1 auto;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #000;

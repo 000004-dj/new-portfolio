@@ -1,4 +1,4 @@
-.button{
+.button {
     border: none;
     border-radius: 30px;
     display: block;
@@ -12,12 +12,19 @@
     text-transform: uppercase;
     font-weight: 500;
 }
-.button:hover{
-    box-shadow: black 1px 1px 5px;
 
+.button:hover {
+    box-shadow: black 1px 1px 5px;
+    background: white !important;
+    color: black !important;
 }
 
-.buttonIcon{
+.button.dark {
+    background: black;
+    color: white
+}
+
+.buttonIcon {
     display: inline-block;
     margin: 0;
     position: relative;
@@ -27,7 +34,7 @@
 
 
 @media (max-width: 760px) {
-    .button{
+    .button {
 
     }
 }

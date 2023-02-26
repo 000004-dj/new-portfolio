@@ -3,7 +3,10 @@ import s from "./SkillsPage.module.css"
 import containerStyle from "../../../containerStyle.module.css"
 import {TitleText} from "../../additionaly-components/TitleText/TitleText";
 import {v1} from "uuid";
-import { AiFillHtml5, AiOutlineRight } from "react-icons/ai";
+import {AiOutlineRight } from "react-icons/ai";
+import {DiReact} from "react-icons/di";
+import {SiRedux, SiJavascript} from "react-icons/si";
+import {FaReact} from "react-icons/fa";
 
 const state = [
     {
@@ -27,9 +30,9 @@ const state = [
             " placeat possimus repudiandae sirror ipsum libero maxime m" +
             "olestiae odio placeat possimus repudiandae sint suscipit",
     },
-
-
 ]
+
+
 
 export const SkillPage = () => {
     return (
@@ -43,7 +46,10 @@ export const SkillPage = () => {
                 {state.map(i => {
                     return<div className={s.cards} key={i.id}>
                         <div className={s.cardsImage}>
-                            <AiFillHtml5 className={s.icon}/>
+                            {i.skillName === "React" ? <p><FaReact className={s.icon}/></p> :
+                                i.skillName === "JavaScript" ? <p><SiJavascript className={s.icon}/></p> :
+                                    i.skillName === "Redux" && <p><SiRedux className={s.icon}/></p>
+                            }
                         </div>
                         <p className={s.skillName}>{i.skillName}</p>
                         <p className={s.skillDescription}>{i.skillDescription} </p>
