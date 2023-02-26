@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Footer.module.css"
+import s from "./Footer.module.scss"
 
 
 export const Footer = () => {
@@ -32,6 +32,7 @@ export const Footer = () => {
                     </li>
                 </ul>
             </div>
+
             <div className={s.description}>
                 <span>
                 All rights reserved

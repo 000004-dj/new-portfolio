@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Main.module.css"
+import s from "./Main.module.scss"
 import {HomePage} from "./HomePage/HomePage";
 import {SkillPage} from "./SkillsPage/SkillPage";
 import {Portfolio} from "./Portfolio/Portfolio";

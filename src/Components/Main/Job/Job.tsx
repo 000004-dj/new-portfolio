@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Job.module.css"
+import s from "./Job.module.scss"
 import {TitleText} from "../../additionaly-components/TitleText/TitleText";
 import {CustomButton} from "../../additionaly-components/CustomButton/CustomButtom";
 import { IoReturnUpForward } from "react-icons/io5";

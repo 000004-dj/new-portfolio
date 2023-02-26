@@ -1,6 +1,6 @@
 import React from "react";
-import s from "./Project.module.css";
-import containerStyle from "../../../../containerStyle.module.css"
+import s from "./Project.module.scss";
+import containerStyle from "../../../../containerStyle.module.scss"
 
 const state = [
     {
@@ -23,13 +23,12 @@ const state = [
 
 export const Project = () => {
     return (
-            <div className={containerStyle.flexContainer}>
+            <div className={`${containerStyle.flexContainer} ${s.blockContainer}`}>
                 {state.map(i => {
                     return <div className={s.cardContainer}>
                         <p className={s.title}>{i.title}</p>
                         <p className={s.description}>{i.description}</p>
-                        <div className={s.image} style={{backgroundImage: `url(${i.image})`}} >
-                        </div>
+                        <div className={s.image} style={{backgroundImage: `url(${i.image})`}} ></div>
                     </div>
                 })}
             </div>

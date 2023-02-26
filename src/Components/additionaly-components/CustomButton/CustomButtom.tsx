@@ -1,4 +1,4 @@
-import s from "./CustomButton.module.css";
+import s from "./CustomButton.module.scss";
 import React from "react";
 
 type PropsType = {

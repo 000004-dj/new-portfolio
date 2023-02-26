@@ -1,4 +1,4 @@
-import s from "./TitleText.module.css";
+import s from "./TitleText.module.scss";
 import React from "react";
 
 type PropsType = {

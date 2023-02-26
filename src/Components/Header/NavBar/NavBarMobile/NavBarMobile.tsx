@@ -1,8 +1,8 @@
 import React from "react";
-import s from "./NavBar.module.css"
+import s from "./NavBarMobile.module.scss"
 import {NavLink} from "react-router-dom";
 
-export const NavBar = () => {
+export const NavBarMobile = () => {
     return (
         <div className={s.NavBar}>
             <NavLink to={"/"}

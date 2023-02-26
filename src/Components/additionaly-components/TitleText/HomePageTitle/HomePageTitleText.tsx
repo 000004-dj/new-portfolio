@@ -1,4 +1,4 @@
-import s from "./HomePageTitleText.module.css";
+import s from "./HomePageTitleText.module.scss";
 import React from "react";
 
 type PropsType = {

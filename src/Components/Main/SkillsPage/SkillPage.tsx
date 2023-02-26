@@ -1,10 +1,9 @@
 import React from "react";
-import s from "./SkillsPage.module.css"
-import containerStyle from "../../../containerStyle.module.css"
+import s from "./SkillsPage.module.scss"
+import containerStyle from "../../../containerStyle.module.scss"
 import {TitleText} from "../../additionaly-components/TitleText/TitleText";
 import {v1} from "uuid";
 import {AiOutlineRight } from "react-icons/ai";
-import {DiReact} from "react-icons/di";
 import {SiRedux, SiJavascript} from "react-icons/si";
 import {FaReact} from "react-icons/fa";
 
@@ -41,7 +40,7 @@ export const SkillPage = () => {
                 title={"What i can"}
                 smallTitle={"SKILLS"}
             />
-            <div className={containerStyle.flexContainer}>
+            <div className={`${containerStyle.flexContainer} ${s.blockContainer}`}>
 
                 {state.map(i => {
                     return<div className={s.cards} key={i.id}>
